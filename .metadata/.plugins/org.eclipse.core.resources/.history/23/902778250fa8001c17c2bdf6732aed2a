@@ -1,0 +1,15 @@
+
+public class Clinet {
+
+	public static void main(String[] args) {
+		
+		LinkledList list = new LinkledList();
+	
+		list.addLast(20);
+		list.addLast(30);
+		list.addFirst(10);
+		list.display();
+
+	}
+
+}

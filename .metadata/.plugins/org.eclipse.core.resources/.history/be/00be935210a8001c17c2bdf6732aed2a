@@ -1,0 +1,18 @@
+
+public class Clinet {
+
+	public static void main(String[] args) throws Exception {
+
+		LinkledList list = new LinkledList();
+
+		list.addLast(30);
+		list.addFirst(20);
+		list.addFirst(10);
+
+		list.display();
+		
+		System.out.println(list.getLast());
+
+	}
+
+}

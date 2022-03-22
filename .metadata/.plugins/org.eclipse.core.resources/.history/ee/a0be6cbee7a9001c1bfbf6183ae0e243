@@ -1,0 +1,39 @@
+
+public class Stack {
+     private class Node{
+		int data;
+		Node next;
+	}
+    
+     private Node head;
+     private Node tail;
+     private int size;
+     
+     public void display() {
+		Node temp = this.head;
+		while(temp!=null) {
+		    System.out.println(temp.data);
+		    temp=temp.next;
+		}
+	}
+     
+     public void push(int val) {
+		Node newNode = new Node();
+		newNode.data =val;
+		newNode.next =null;
+		
+		if(this.size>=1) {
+			newNode.next = head;
+		}
+		if(this.size==0) {
+			this.head = newNode;
+			this.tail = newNode;
+			size++;
+		}
+		else {
+			this.head =newNode;
+			this.size++;
+		}
+	}
+     
+}

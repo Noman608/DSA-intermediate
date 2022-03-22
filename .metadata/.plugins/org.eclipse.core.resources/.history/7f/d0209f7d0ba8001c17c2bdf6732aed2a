@@ -1,0 +1,11 @@
+
+public class Clinet {
+
+	public static void main(String[] args) {
+		System.out.println("NOman");
+		LinkledList list = new LinkledList();
+	   
+
+	}
+
+}
