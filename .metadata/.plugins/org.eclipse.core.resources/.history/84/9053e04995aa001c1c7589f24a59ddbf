@@ -1,0 +1,33 @@
+
+public class Clinet {
+
+	public static void main(String[] args) throws Exception {
+		Stack stack = new Stack();
+		Queue queue = new Queue();
+		queue.enqueue(10);
+		queue.enqueue(20);
+		queue.enqueue(30);
+		queue.enqueue(40);
+		queue.enqueue(50);
+		queue.enqueue(60);
+		queue.enqueue(70);
+		queue.display();
+		queue.dequeue();
+		queue.display();
+		queue.dequeue();
+		queue.display();
+		queue.dequeue();
+		queue.display();
+		queue.dequeue();
+		queue.display();
+		queue.dequeue();
+		queue.display();
+		queue.dequeue();
+		queue.display();
+		queue.dequeue();
+		queue.display();
+	  System.out.println(queue.Size());
+
+	}
+
+}

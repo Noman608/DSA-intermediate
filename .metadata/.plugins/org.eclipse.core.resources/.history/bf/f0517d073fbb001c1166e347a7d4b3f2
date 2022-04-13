@@ -1,0 +1,35 @@
+
+public class Practice {
+	public static void main(String[] args) {
+		int arr[] = null;
+		System.out.println(arr);
+		arr = new int[5];
+		System.out.println(arr);
+		arr[0] = 1;
+		arr[1] = 2;
+		arr[2] = 3;
+		arr[3] = 4;
+		arr[4] = 5;
+
+		swap(arr[2], arr[3]);
+		for(int i:arr) {
+			System.out.println(i);
+		}
+
+	}
+	public static void Swap(int[] arr, int i, int j) {
+	    System.out.println(arr[i] + ", " + arr[j]);
+	    int temp = arr[i];
+	   arr[i] = arr[j];
+	    arr[j] = temp;
+	                                       
+	}
+
+	private static void swap(int i, int j) {
+		System.out.println(i+" "+j);
+		int temp = i;
+		i = j;
+		j = temp;
+
+	}
+}

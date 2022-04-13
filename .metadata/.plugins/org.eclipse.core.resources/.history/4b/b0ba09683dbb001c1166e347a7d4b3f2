@@ -1,0 +1,13 @@
+
+public class Practice {
+
+	public static int var = 10;
+
+	public static void main(String[] args) {
+		System.out.println(var);
+		int var =20;
+		System.out.println(var);
+
+	}
+
+}

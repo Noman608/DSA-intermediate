@@ -1,0 +1,10 @@
+
+public class Clinet {
+
+	public static void main(String[] args) throws Exception {
+		Stack stack = new Stack();
+		Queue queue = new Queue();
+		queue.display();
+	}
+
+}

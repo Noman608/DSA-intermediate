@@ -1,0 +1,9 @@
+
+public class Practice {
+	public static void main(String[] args) {
+	   int arr[]=  {100,200,300};
+        int other[] = {1,2,3,};
+	}
+
+	
+}

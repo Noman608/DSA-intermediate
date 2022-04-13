@@ -1,0 +1,19 @@
+
+public class Practice {
+	public static void main(String[] args) {
+		int arr[] = { 100, 200, 300 };
+		int other[] = { 1, 2, 3 };
+		
+		Swap(arr, other);
+		for(int i:other) {
+			System.out.println(i);
+		}
+	}
+
+	public static void Swap(int[] one, int[] two) {
+    int[] temp = one;
+    one = two;
+    two = temp;
+}
+
+}
