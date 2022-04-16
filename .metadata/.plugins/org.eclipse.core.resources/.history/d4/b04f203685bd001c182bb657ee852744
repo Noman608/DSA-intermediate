@@ -1,0 +1,47 @@
+
+public class InsertionSort {
+
+	public static void main(String[] args) {
+		int[] array = { 100, 10, 5, 7, 20, 30, 25 };
+		insertonSort(array);
+		for (int i : array) {
+			System.out.println(i);
+		}
+	}
+
+	private static void partition(int arr[],int start,int end) {
+		int pIndex = start;
+		int pivot =arr[end];
+		
+	}
+	
+	public static void selectionSort(int arr[]) {
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i; j < arr.length; j++) {
+				if (arr[i] > arr[j]) {
+					swap(arr, i, j);
+				}
+			}
+		}
+	}
+
+	public static void insertonSort(int arr[]) {
+		for (int i = 1; i < arr.length; i++) {
+			int value = arr[i];
+			int index = i;
+			while (index > 0 && arr[index - 1] > value) {
+				arr[index] = arr[index - 1];
+				index--;
+			}
+			arr[index] = value;
+		}
+	}
+
+	private static void swap(int[] arr, int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+
+	}
+
+}
